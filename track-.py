@@ -1,4 +1,4 @@
-#!/bin/bash
+
 
 banner() {
 
@@ -13,14 +13,14 @@ printf "\e[1;31m     |_|_|  \__,_|\___|_|\_\ \e[0m\e[1;32m |_____| .__/ \e[0m\n"
 printf "\e[1;32m                                    | |    \e[0m\n"
 printf "\e[1;32m                                    |_|    \e[0m\n"
 printf "\e[0m\n"
-printf "\e[0m\e[1;32m    Created By Demonx \e[0m\e[1;31m(\e[0m\e[1;37m Demon-X \e[0m\e[1;31m)\e[0m\n"
+printf "\e[0m\e[1;32m    Created By DEMOXXZ \e[0m\e[1;31m(\e[0m\e[1;31m Unknown \e[0m\e[1;31m)\e[0m\n"
 
 }
 
 menu() {
 printf "\e[0m\n"
-printf "\e[0m\e[1;31m  [\e[0m\e[1;37m01\e[0m\e[1;31m]\e[0m\e[1;32m My IP\e[0m\n"
-printf "\e[0m\e[1;31m  [\e[0m\e[1;37m02\e[0m\e[1;31m]\e[0m\e[1;37m Track Ip\e[0m\n"
+printf "\e[0m\e[1;31m  [\e[0m\e[1;37m01\e[0m\e[1;31m]\e[0m\e[1;33m My IP\e[0m\n"
+printf "\e[0m\e[1;31m  [\e[0m\e[1;37m02\e[0m\e[1;31m]\e[0m\e[1;32m Track Ip\e[0m\n"
 printf "\e[0m\e[1;31m  [\e[0m\e[1;37m00\e[0m\e[1;31m]\e[0m\e[1;31m Exit\e[0m\n"
 printf "\e[0m\n"
 read -p $'  \e[1;31m[\e[0m\e[1;37m~\e[0m\e[1;31m]\e[0m\e[1;92m Select An Option \e[0m\e[1;96m: \e[0m\e[1;93m\en' option
@@ -86,8 +86,8 @@ printf "\e[0m\n"
 printf "  \e[0m\e[1;93m  GOOGLE Maps   \e[0m\e[1;96m:\e[0m\e[1;94m  https://maps.google.com/?q=$mylat,$mylon\e[0m\n"
 sleep 5
 printf "\e[0m\n"
-printf "  \e[0m\e[1;91m[\e[0m\e[1;97m01\e[0m\e[1;91m]\e[0m\e[1;93m Return To Main Menu\e[0m\n"
-printf "  \e[0m\e[1;91m[\e[0m\e[1;97m02\e[0m\e[1;91m]\e[0m\e[1;93m Exit\e[0m\n"
+printf "  \e[0m\e[1;91m[\e[0m\e[1;97m01\e[0m\e[1;91m]\e[0m\e[1;92m Return To Main Menu\e[0m\n"
+printf "  \e[0m\e[1;91m[\e[0m\e[1;97m02\e[0m\e[1;91m]\e[0m\e[1;91m Exit\e[0m\n"
 printf "\e[0m\n"
 read -p $'  \e[1;31m>>\e[0m\e[1;96m  \en' mainorexit1
 
