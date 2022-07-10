@@ -90,10 +90,10 @@ printf "  \e[0m\e[1;91m[\e[0m\e[1;97m02\e[0m\e[1;91m]\e[0m\e[1;91m Exit\e[0m\n"
 printf "\e[0m\n"
 read -p $'  \e[1;31m>>\e[0m\e[1;96m  \en' mainorexit1
 
-if [[ $mainorexit1 == 1 || $mainorexit1 == 01 ]]; then
+if [[ $mainorexit1 == 1 || $mainorexit1 == 1 ]]; then
 banner
 menu
-elif [[ $mainorexit1 == 2 || $mainorexit1 == 02 ]]; then
+elif [[ $mainorexit1 == 2 || $mainorexit1 == 2 ]]; then
 printf "\e[0m\n"
 printf "\e[0m\n"
 exit 1
@@ -161,10 +161,10 @@ printf "  \e[0m\e[1;91m[\e[0m\e[1;97m02\e[0m\e[1;91m]\e[0m\e[1;93m Exit\e[0m\n"
 printf "\e[0m\n"
 read -p $'  \e[1;31m>>\e[0m\e[1;96m  \en' mainorexit2
 
-if [[ $mainorexit2 == 1 || $mainorexit2 == 01 ]]; then
+if [[ $mainorexit2 == 1 || $mainorexit2 == 1 ]]; then
 banner
 menu
-elif [[ $mainorexit2 == 2 || $mainorexit2 == 02 ]]; then
+elif [[ $mainorexit2 == 2 || $mainorexit2 == 2 ]]; then
 printf "\e[0m\n"
 printf "\e[0m\n"
 exit 1
